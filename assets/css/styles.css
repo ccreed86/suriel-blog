@@ -1,0 +1,49 @@
+:root {
+    --dmback:black;
+    --dmtext: yellowgreen;
+    --lmback:lightskyblue;
+    --lmtext: rgb(28, 28, 83);
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background: var(--lmback);
+    color: var(--lmtext);
+    display: flex;
+    border-bottom: 15px solid var(--lmtext);
+    border-bottom-style: dotted;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+
+    margin: 10px;
+    font-size: 50px;
+    display: flexbox;
+    border-bottom: 10px solid var(--lmtext);
+    border-bottom-style: double;
+
+}
+
+p {
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    display: flexbox;
+
+}
+
+h2 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    display: flexbox;
+    border-top: 10px solid var(--lmtext);
+    border-top-style: double;
+
+
+}
