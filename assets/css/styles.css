@@ -108,6 +108,7 @@ h2 {    /*SPILL THE TEA*/
   }
   
   .spill {
+        display: inline-block;        
         border: 0;
         line-height: 2.5;
         padding: 0 20px;
@@ -141,19 +142,18 @@ h2 {    /*SPILL THE TEA*/
           inset -2px -2px 3px rgba(255, 255, 255, 0.6),
           inset 2px 2px 3px rgba(0, 0, 0, 0.6);
       }
-  }
-
-
-footer {  /* CONTAINTS THE PROFILE LINK*/
-    margin: 0px;
-    padding: 5px;
-    font-size: 20px;
-    background: var(--lmback);
-    color: var(--lmtext);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+      footer {  /* CONTAINTS THE PROFILE LINK*/
+        margin: 0px;
+        padding: 5px;
+        font-size: 20px;
+        background: var(--lmback);
+        color: var(--lmtext);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
+    
+    }
 
 
-}

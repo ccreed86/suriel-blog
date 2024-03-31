@@ -15,9 +15,10 @@
     </header>
  <!--I am presented with the landing page containing:
      a form with labels and inputs:
-        1. username 
-        2. blog title
-        3. blog content.-->
+        1. username √
+        2. blog title √
+        3. blog content √
+        4.-->
 
      <!--submit button:
         1. posts data is stored to .localStorage
@@ -25,29 +26,38 @@
         3. button needs to have alert message that prompts incomplete forms to be completed
         4. -->
 
-        <form class="form" action="" method="get" >
+        <form class="form">
+
             <div class="username">
-              <label for="name">Enter your username: </label>
-              <input type="text" name="name" id="usernamebox" required />
+              <label>Enter your username:</label>
+              <input type="text" id="usernamebox" required />
             </div>
+
             <div class="title">
-              <label for="title">Enter your Title: </label>
-              <input type="text" name="title" id="titlebox" required />
+              <label>Enter your Title: </label>
+              <input type="text" id="title" required />
             </div>
+
             <div class="post">
-                <label for="text">Eneter your post: </label>
-                <textarea class="postbox" type="text" name="text" id="postbox" required> </textarea>
-              </div>
-            <div class="spill">
-              <input type="submit" value="Spill the tea!" />
+                <label>Enter your post: </label>
+                <textarea class="postbox" id="postbox"> </textarea>
             </div>
+
+            <div >
+                <button class="spill" id="spill" type="submit">Spill the Tea!</button>
+           </div>
         </form>
-          
+
+            <footer>
+                <p>Visit 
+                <a href="https://ccreed86.github.io/cliff-portfolio/">My Portfolio</a>
+                to see more of my work &copy2024</p>
+            </footer>
+        
+          <script src="./assets/js/form.js"></script>
+
 </body>
 
-<footer>
-    <p>Visit 
-    <a href="https://ccreed86.github.io/cliff-portfolio/">My Portfolio</a>
-    to see more of my work &copy2024</p>
-</footer>
+
+
 </html>
