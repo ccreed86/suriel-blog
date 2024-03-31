@@ -5,3 +5,16 @@ button.addEventListener("click", function (event) {
     location.href="./index.html";
 
 });
+
+function renderBlogPost () {
+    const getInfo = JSON.parse(localStorage.getItem("blogpost"));
+
+    if (getInfo !== null) {
+        document.querySelector('.title').innerHTML = getInfo.title
+        document.querySelector('.blogPost').innerHTML = getInfo.postBox
+        document.querySelector('.author').innerHTML = getInfo.userName
+    }
+
+}
+
+document.addEventListener("DOMContentLoaded",renderBlogPost);
