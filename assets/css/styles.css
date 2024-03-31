@@ -1,3 +1,5 @@
+/*THIS IS ATTACHED TO THE INDEX.HTML FILE*/
+
 :root {
     --dmback:black;
     --dmtext: yellowgreen;
@@ -19,7 +21,7 @@ header {
     align-items: center;
 }
 
-h1 {
+h1      /*SURIEL*/
 
     margin: 10px;
     font-size: 50px;
@@ -29,21 +31,35 @@ h1 {
 
 }
 
-p {
+p {     /* A GOSSIP BLOG*/
     margin: 2px;
     padding: 2px;
     font-size: 20px;
+    font-style: italic;
     display: flexbox;
 
 }
 
-h2 {
+h2 {    /*SPILL THE TEA*/
     margin: 10px;
     padding: 5px;
     font-size: 30px;
     display: flexbox;
     border-top: 10px solid var(--lmtext);
     border-top-style: double;
+
+}
+
+footer {  /* CONTAINTS THE PROFILE LINK*/
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+    background: var(--lmback);
+    color: var(--lmtext);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 
 }
