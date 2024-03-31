@@ -21,7 +21,7 @@ header {
     align-items: center;
 }
 
-h1      /*SURIEL*/
+h1   {   /*SURIEL*/
 
     margin: 10px;
     font-size: 50px;
@@ -49,6 +49,100 @@ h2 {    /*SPILL THE TEA*/
     border-top-style: double;
 
 }
+
+.form { /*THIS IS TARGETTING THE ENTIRE FORM SECTION*/
+    margin: 0;
+    padding: 10px;
+    color: var(--lmtext);
+    background: var(--lmback);
+    
+}
+  
+  .username { /*THIS IS TARGETTING THE USERNAME DIV WITHIN FORM */
+    margin-right: 20px;
+    padding: 5px;
+    display: flexbox;
+    flex-direction: row;
+    justify-items: flex-start;
+    border-color: var(--lmtext);
+  }
+
+  .title { /* THIS IS TARGETTING THE TITLE DIV WITHIN FORM */
+    margin-right: 20px;
+    display: flexbox;
+    flex-direction: row;
+    justify-items: flex-start;
+
+  }
+
+  .post {
+    padding-bottom: 10px;
+    display: flexbox;
+    flex-direction: row;
+    justify-items: flex-start;
+  }
+
+  #postbox {
+    color: var(--lmtext);
+    background: var(--lmback);
+    display: flexbox;
+    justify-content: flex-start;
+    min-width: 600px;
+    min-height: 500px;
+    width: 100%
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+    width:100%;
+    color: var(--lmtext);
+    background: var(--lmback);
+  }
+  
+  label {
+    font-size: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .spill {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: var(--lmtext);
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: var(--lmback) ;
+        background-image: linear-gradient(
+          to top left,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2) 30%,
+          rgba(0, 0, 0, 0)
+        );
+        box-shadow:
+          inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+          inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+      }
+      
+    
+    
+      .spill:hover {
+        background-color: rgba(255, 0, 0, 1);
+      }
+      
+      .spill:active {
+        background-color: var(--lmback);
+        color: var(--lmtext);
+        box-shadow:
+          inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+          inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+      }
+  }
+
 
 footer {  /* CONTAINTS THE PROFILE LINK*/
     margin: 0px;
