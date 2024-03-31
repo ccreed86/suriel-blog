@@ -1,0 +1,65 @@
+:root {
+    --dmback:black;
+    --dmtext: yellowgreen;
+    --lmback:lightskyblue;
+    --lmtext: rgb(28, 28, 83);
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background: var(--lmback);
+    color: var(--lmtext);
+    display: flex;
+    border-bottom: 15px solid var(--lmtext);
+    border-bottom-style: dotted;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1   {   /*SURIEL*/
+
+    margin: 10px;
+    font-size: 50px;
+    display: flexbox;
+    
+    
+
+}
+
+.gossip {     /* A GOSSIP BLOG*/
+    margin: 2px;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    display: flexbox;
+    border-right: 10px solid var(--lmtext);
+    border-left: 10px solid var(--lmtext);
+    border-left-style: double;
+    border-right-style: double;
+
+}
+
+h2 {    /*SPILLED TEA*/
+    margin: 10px;
+    font-size: 30px;
+    display: flexbox;
+    
+
+}
+
+
+
+
+
+footer {  /* CONTAINTS THE PROFILE LINK*/
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+    background: var(--lmback);
+    color: var(--lmtext);
+    display: flex;
+    justify-content: center;
+    align-items: center;
