@@ -1,3 +1,5 @@
+// THIS IS LINKED TO INDEX.HTML
+
 const userName = document.querySelector("#usernamebox");
 const title = document.querySelector("#title");
 const postBox = document.querySelector("#postbox");

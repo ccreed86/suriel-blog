@@ -10,9 +10,9 @@ function renderBlogPost () {
     const getInfo = JSON.parse(localStorage.getItem("blogpost"));
 
     if (getInfo !== null) {
-        document.querySelector('.title').innerHTML = getInfo.title
-        document.querySelector('.blogPost').innerHTML = getInfo.postBox
-        document.querySelector('.author').innerHTML = ("--"+getInfo.userName);
+        document.querySelector('#title').innerHTML = getInfo.title
+        document.querySelector('#blogPost').innerHTML = getInfo.postBox
+        document.querySelector('#author').innerHTML = ("--"+getInfo.userName);
     }
 
 }
