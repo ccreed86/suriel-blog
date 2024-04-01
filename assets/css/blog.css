@@ -8,11 +8,13 @@
 body {
     color: var(--lmtext);
     background-color: var(--lmback);
+    border-color: var(--lmtext);
 }
 
 body.dark-theme {
     color: var(--dmtext);
     background-color: var(--dmback);
+    border-color: var(--dmtext);
     
 }
 
@@ -20,7 +22,7 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    border-bottom: 15px solid var(--lmtext);
+    border-bottom: 15px solid;
     border-bottom-style: dotted;
     flex-direction: row;
     justify-content: space-around;
@@ -44,8 +46,8 @@ h1   {   /*SURIEL*/
     font-size: 20px;
     font-style: italic;
     display: flexbox;
-    border-right: 10px solid var(--lmtext);
-    border-left: 10px solid var(--lmtext);
+    border-right: 10px solid;
+    border-left: 10px solid;
     border-left-style: double;
     border-right-style: double;
 
@@ -65,7 +67,7 @@ h2 {    /*SPILLED TEA*/
     padding: 15px;
     padding-top: 25px;
     display: flexbox;
-    border: 5px solid var(--lmtext);
+    border: 5px solid;
 
 }
 
@@ -75,8 +77,8 @@ h2 {    /*SPILLED TEA*/
     font-size: 25px;
     font-weight: 800;
     display: flexbox;
-    border-bottom: 3px solid var(--lmtext);
-    border-right: 3px solid var(--lmtext);
+    border-bottom: 3px solid;
+    border-right: 3px solid;
     border-radius: 50%;
 
 }
@@ -107,6 +109,10 @@ footer {  /* CONTAINTS THE PROFILE LINK*/
 
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
 .back {  /*THIS IS MY BACK BUTTON*/
     border: 0;
     line-height: 2.5;
