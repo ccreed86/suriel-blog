@@ -17,7 +17,7 @@ The landing page allows a useer to add a "blog post" that will be saved to the b
 ## Credits
 
 The following link was used to create the filler blog posts featuring excerpts By R.A. Salvator.
-https://www.goodreads.com/author/quotes/1023510.R_A_Salvatore?page=27
+https://www.goodreads.com/author/quotes/1023510.R_A_Salvatore?page=1
 
 I used the following links tutorial to creat my darkmode button/check box for theme swapping on the blog page.
 
