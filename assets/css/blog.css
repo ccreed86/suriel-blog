@@ -137,15 +137,12 @@ a {
 
 
   .back:hover {
-    background-color: rgba(255, 0, 0, 1);
+    background-color: blueviolet;
   }
   
   .back:active {
     background-color: var(--lmback);
     color: var(--lmtext);
-    box-shadow:
-      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
   }
 
   .toggle input[type='checkbox'] { /*THIS IS PART OF MY TOGGLE BUTTON FOR DARK MODE*/
@@ -153,8 +150,8 @@ a {
 }
 
 .toggle label {
-    background-color: #777;
-    border: 2px solid #555;
+    background-color: var(--dmback);
+    border: 2px solid rgb(32, 30, 30);
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
@@ -179,7 +176,7 @@ a {
 }
 
 .toggle input[type='checkbox']:checked ~ label {
-    background-color: #00a0fc;
+    background-color: var(--lmback);
     border-color: #006dc9;
 }
 
